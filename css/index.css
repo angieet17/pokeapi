@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f2f2f2;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #222;
+}
+
+#pokemonInput {
+    padding: 12px 15px;
+    font-size: 16px;
+    width: 250px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+}
+#pokemonInput:focus {
+    border-color: #333;
+}
+
+#agregarBtn {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 250px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+#agregarBtn:hover{
+    background-color: #c1121f;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.resultado{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.tarjeta{
+    border: none;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.tarjeta.fire {
+    background-color: #ffb366;
+}
+
+.tarjeta.water {
+    background-color: #8ecae6;
+}
+
+.tarjeta.grass {
+    background-color: #a8d08d;
+}
+
+.tarjeta.electric {
+    background-color: #ffe066;
+}
+
+.tarjeta.psychic {
+    background-color: #d8a7e8;
+}
+
+.tarjeta.ice {
+    background-color: #bde0fe;
+}
+
+.tarjeta.poison {
+    background-color: #c77dba;
+}
+
+.tarjeta.ground {
+    background-color: #d6b98c;
+}
+
+.tarjeta.flying {
+    background-color: #b8b8e6;
+}
+
+.tarjeta.bug {
+    background-color: #b5c99a;
+}
+
+.tarjeta.rock {
+    background-color: #b8a77a;
+}
+
+.tarjeta.ghost {
+    background-color: #9d8bb8;
+}
+
+.tarjeta.dragon {
+    background-color: #8f7edc;
+}
+
+.tarjeta.dark {
+    background-color: #777;
+}
+
+.tarjeta.steel {
+    background-color: #aaa;
+}
+
+.tarjeta.fairy {
+    background-color: #f2a9c8;
+}
+
+.tarjeta.fighting {
+    background-color: #d98282;
+}
+
+.tarjeta.normal {
+    background-color: #d3d3d3;
+}
+.tarjeta:hover {
+    transform: translateY(-5px);/*cuando pasas el mouse, la tarjeta sube un poquito.*/
+}
+.tarjeta img{
+    width: 120px;
+}
+.tarjeta button {
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #e63946;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.tarjeta button:hover {
+    background-color: #c1121f;
+}
