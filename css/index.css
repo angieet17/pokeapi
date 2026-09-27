@@ -153,3 +153,20 @@ h1{
 .tarjeta button:hover {
     background-color: #c1121f;
 }
+/* Adaptación para celulares */
+@media (max-width: 600px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .resultado {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+}

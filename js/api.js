@@ -46,7 +46,7 @@ function agregarPokemon() {
             tarjeta.classList.add("tarjeta");
             // Le damos otra clase dependiendo del tipo
             tarjeta.classList.add(tipo);
-
+                
             tarjeta.innerHTML = `
                 <img src="${pokemon.sprites.front_default}">
                 <h2>${nombre}</h2>
