@@ -157,6 +157,7 @@ h1{
 @media (max-width: 600px) {
 
     .container {
+        width: 100%;
         padding: 20px;
     }
 
@@ -164,9 +165,27 @@ h1{
         font-size: 32px;
     }
 
+    #pokemonInput {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #agregarBtn {
+        width: 100%;
+        max-width: 300px;
+    }
+
     .resultado {
         grid-template-columns: 1fr;
         gap: 15px;
     }
 
+    .tarjeta {
+        width: 100%;
+    }
+
+    .tarjeta img {
+        width: 120px;
+        height: 120px;
+    }
 }
